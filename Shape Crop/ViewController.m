@@ -18,23 +18,6 @@
 {
     [super viewDidLoad];
     _imageview.image=[_imageview.image imageWithImage:_imageview.image scaledToSize:CGSizeMake(320, 385)];
-   // _imageview.image=[_imageview.image circleImage];
-    
-//    CALayer *mask = [CALayer layer];
-//    mask.contents = (id)[[UIImage imageNamed:@"circle.png"] CGImage];
-//    mask.frame = CGRectMake(0, 0, 100,100);
-//    _imageview.layer.mask = mask;
-//    _imageview.layer.masksToBounds = YES;
-    
-    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"lens_flares" ofType:@"json"];
-    NSData *data = [NSData dataWithContentsOfFile:filePath];
-    NSArray *json = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil];
-    
-    
-    NSData *jsonData = [NSJSONSerialization dataWithJSONObject:json options:NSJSONWritingPrettyPrinted error:nil];
-    NSString *jsonString = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
-    NSLog(@"%@",jsonString);
-
     
 }
 -(IBAction)Resetbtnpress:(id)sender

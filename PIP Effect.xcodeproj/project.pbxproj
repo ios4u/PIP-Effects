@@ -37,7 +37,6 @@
 		F1907FCB1A4D768000362030 /* ph2_m.png in Resources */ = {isa = PBXBuildFile; fileRef = F1907FC51A4D768000362030 /* ph2_m.png */; };
 		F1907FCC1A4D768000362030 /* ph3.png in Resources */ = {isa = PBXBuildFile; fileRef = F1907FC61A4D768000362030 /* ph3.png */; };
 		F1907FCD1A4D768000362030 /* ph3_m.png in Resources */ = {isa = PBXBuildFile; fileRef = F1907FC71A4D768000362030 /* ph3_m.png */; };
-		F1E592401A4E746D00FC796E /* lens_flares.json in Resources */ = {isa = PBXBuildFile; fileRef = F1E5923F1A4E746C00FC796E /* lens_flares.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,7 +90,6 @@
 		F1907FC51A4D768000362030 /* ph2_m.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ph2_m.png; sourceTree = "<group>"; };
 		F1907FC61A4D768000362030 /* ph3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ph3.png; sourceTree = "<group>"; };
 		F1907FC71A4D768000362030 /* ph3_m.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ph3_m.png; sourceTree = "<group>"; };
-		F1E5923F1A4E746C00FC796E /* lens_flares.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = lens_flares.json; path = "../../Decoded App/PicsArt/lens_flares.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,7 +170,6 @@
 				F12265F21A485111007B66C8 /* UIImage+Mask.m */,
 				F1907FB51A4D6EE200362030 /* UIImage+StackBlur.h */,
 				F1907FB61A4D6EE200362030 /* UIImage+StackBlur.m */,
-				F1E5923F1A4E746C00FC796E /* lens_flares.json */,
 				F12265991A482249007B66C8 /* Shapes */,
 				F122656E1A481A28007B66C8 /* Images.xcassets */,
 				F122655D1A481A28007B66C8 /* Supporting Files */,
@@ -303,7 +300,6 @@
 				F12265B61A482950007B66C8 /* screeen_640_960.png in Resources */,
 				F1907FCC1A4D768000362030 /* ph3.png in Resources */,
 				F1907FCD1A4D768000362030 /* ph3_m.png in Resources */,
-				F1E592401A4E746D00FC796E /* lens_flares.json in Resources */,
 				F122656F1A481A28007B66C8 /* Images.xcassets in Resources */,
 				F1907FC81A4D768000362030 /* ph1.png in Resources */,
 				F12265611A481A28007B66C8 /* InfoPlist.strings in Resources */,
