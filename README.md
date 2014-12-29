@@ -1,7 +1,6 @@
 PIP-Effects
 ===========
 
-User can create picture in picture Effects like below image
+User can create picture in picture Effects like above screenshot image
 
 
-![alt tag](https://raw.github.com/divyeshdobariya/PIP-Effects/screenshot.png)
